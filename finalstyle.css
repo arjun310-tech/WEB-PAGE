@@ -1,0 +1,254 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.header1 {
+     background-color: white;
+     padding: 20px;
+     color: grey;
+     z-index: 999;
+
+     span {
+          margin-left: 30px;
+     }
+
+     #btn {
+          margin-left: 200px;
+          padding: 10px 20px;
+          border-radius: 30px;
+          background-color: limegreen;
+          color: white;
+          transition: 0.3s;
+          /* background-color: linear-gradient(to left, Dark Blue: hsl(233, 26%, 24%) - Lime Green: hsl(136, 65%, 51%) - Bright Cyan: hsl(192, 70%, 51%)); */
+     }
+
+     img {
+          padding-left: 150px;
+     }
+}
+
+.subhead1 {
+     display: inline-block;
+     margin-left: 220px;
+}
+
+.subhead1 span:hover{
+     border-bottom: 3px solid rgb(6, 241, 6) ;
+     padding-block: 6px;
+     color:rgb(6, 241, 6) ;
+}
+
+.header2 {
+     /* background-image: url("icon/bg-intro-desktop.svg"); */
+     background-color: whitesmoke;
+     position: relative;
+     padding-bottom: 150px;
+     overflow: hidden;
+
+     
+}
+
+.header2 {
+     h1 {
+          margin-left: 170px;
+          margin-bottom: 30px;
+          padding-top: 200px;
+     }
+
+     p {
+          margin-left: 170px;
+          margin-bottom: 30px;
+     }
+}
+
+.header2 button {
+     margin-left: 170px;
+     margin-bottom: 30px;
+     padding: 10px 20px;
+     border-radius: 30px;
+     background-color: limegreen;
+     color: white;
+     border: none;
+}
+
+ .header2 button:hover{
+          transform: scale(1.1);
+     }
+
+.header3 {
+     background-color:darkseagreen;
+     margin-top: 0;
+     z-index: 1000;
+}
+
+.header3 h2 {
+     padding-top: 70px;
+     margin-left: 200px;
+     padding-bottom: 20px;
+}
+
+.header3 p {
+     margin-left: 200px;
+     padding-bottom: 70px;
+     line-height: 30px;
+}
+
+.subhead32 {
+     display: inline-block;
+     padding-left: 60px;
+
+     img {
+          padding-bottom: 20px;
+     }
+
+     h3 {
+          padding-bottom: 20px;
+     }
+
+     p {
+          margin-left: 0;
+          line-height: 30px;
+     }
+}
+
+#three {
+     margin-left: 140px;
+}
+
+.header4 {
+     background-color:rgb(180, 238, 180);
+}
+
+.header4 h2 {
+     padding-top: 50px;
+     padding-bottom: 50px;
+     text-align: center;
+}
+
+.subhead4 {
+     width: 250px;
+     height:auto;
+     display: inline-block;
+     margin-right: 10px;
+     transition: transform 0.3s;
+
+     img {
+          width: 100%;
+     }
+
+     p {
+          margin-left: 20px;
+          padding-block: 10px;
+          line-height: 30px;
+     }
+
+     h3 {
+          margin-left: 20px;
+     }
+
+
+}
+
+.subhead4:hover{
+     transform: scale(1.05);
+}
+
+#four {
+     margin-left: 160px;
+}
+
+#four img {
+     height: 165px;
+}
+
+
+.subhead41 {
+     width: 100%;
+     background-color: whitesmoke;
+}
+
+.header5 {
+     background-color: grey;
+     position: relative;
+     padding-block: 50px;
+}
+
+.subhead51 {
+     display: flex;
+     column-gap: 70px;
+     /* padding-top: 40px; */
+
+     .sp1 {
+          margin-left: 13px;
+     }
+
+     .sp2 {
+          margin-left: 32px;
+     }
+
+     span {
+          padding-left: 100px;
+     }
+
+     p {
+          padding-bottom: 10px;
+     }
+}
+
+.subhead51 img {
+     margin-left: 200px;
+     width: 150px;
+     height: 20px;
+}
+
+#btn1 {
+     padding: 10px 20px;
+     border-radius: 30px;
+     background-color: limegreen;
+     color: white;
+     position: absolute;
+     top: 60px;
+     right: 150px;
+     transform: translate(-50%, -50%);
+     border: none;
+}
+
+.subhead52 {
+     margin-left: 190px;
+     position: absolute;
+     top: 100px;
+
+}
+
+.subhead52 img {
+     padding-left: 10px;
+     transition: transform 0.3s;
+
+}
+
+.subhead52 img:hover{
+     transform: scale(1.5);
+}
+
+#cr {
+     position: absolute;
+     top: 100px;
+     right: 210px;
+}
+
+#phone_bg {
+     width: 1100px;
+     position: absolute;
+     top: -220px;
+     right: -240px;
+     
+}
+
+#phone {
+     width: 730px;
+     position: absolute;
+     top: -100px;
+     right: -130px;
+}
